@@ -4,4 +4,4 @@
 provides 3 functions with sensible defaults for saving R tables, regressions, and plots to LaTeX files:
 - `savor::save.tbl` is a wrapper over `kable` and `kableExtra`
 - `savor::save.reg` is a non-verbose wrapper over `stargazer` (prefer `stargazer-booktabs`)
-- `savor::save.fig` is a registers a `tikz` sink as a device and prints plots. doesn't work with pipes (`%>%`) yet.
+- `savor::save.fig` registers a `tikz` sink as a device and prints plots. doesn't work with pipes (`%>%`) yet.
