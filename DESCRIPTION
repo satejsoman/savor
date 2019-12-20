@@ -1,0 +1,18 @@
+Package: savor
+Title: Standardized Exports to LaTeX
+Version: 1.0.0.0000
+Authors@R: 
+    person(given = "satej",
+           family = "soman",
+           role = c("aut", "cre"),
+           email = "satej@uchicago.edu")
+Description: Opinionated functions for exporting tables, regressions, and figures to LaTeX via kable, stargazer, and tikzDevice
+License: BSD-3-Clause
+Encoding: UTF-8
+LazyData: true
+Imports:
+        stargazer (>= 5.2),
+        knitr (>= 1.26),
+        kableExtra (>= 1.1.0),
+        tikzDevice (>= 0.12.3)
+RoxygenNote: 7.0.2
